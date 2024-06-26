@@ -1,0 +1,9 @@
+.tok-variableName{
+    color: #005c82;
+}
+.tok-comment{
+    color: gray;
+}
+.tok-keyword{
+    color: rgb(241, 10, 107);
+}

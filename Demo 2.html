@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Input</title>
+    <style>
+        .styled-input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .styled-input::placeholder {
+            color: black;
+            transition: color 0.3s;
+        }
+
+        .styled-input:focus::placeholder {
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="styled-input" placeholder="Enter text here...">
+</body>
+</html>
